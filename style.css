@@ -75,7 +75,7 @@
     justify-content: space-between;
     margin: 2rem 0 1rem 0;
 }
-.rate li 
+.rate .list 
 {
     color: var(--color-medium-grey);
     background: var(--color-shaded-dark-blue);
@@ -84,12 +84,12 @@
     transition: var(--transition);
     cursor: pointer;
 }
-.rate li:hover
+.rate .list:hover
 {
     background: var(--color-orange);
     color: var(--color-white);
 }
-.rate li.focus
+.rate .list.focus
 {
     background: var(--color-light-grey);
     color: var(--color-white);
